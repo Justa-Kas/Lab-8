@@ -79,7 +79,7 @@ namespace Lab8
             {
                 if (die2 == 1 && die1 == 1)
                 {
-                    res+="You rolled 2 1s. You got snake eyes.";
+                    res+="You rolled 2 1s. You got snake eyes. ";
                 }
                 else if ((die1 == 1 && die2 == 2) || (die1 == 2 && die2 == 1))
                 {
@@ -96,9 +96,9 @@ namespace Lab8
 
                 if (total == 2 || total == 3 || total == 12)
                 {
-                    res+="You got craps. Unfortunate.";
+                    res+="You got craps. Unfortunate. ";
                 }
-                else if (total == 7 || total == 12)
+                else if (total == 7 || total == 11)
                 {
                     res+="You won, way to go.";
                 }
